@@ -19,6 +19,11 @@ h1 {
     font-size: 60px;
 }
 
+h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
 
 
 /* menu di navigazione intestazione */
@@ -126,7 +131,7 @@ div.jumbotron {
 } 
 
 #jumbotron-btn {
-padding: 10px;
+    padding: 10px;
 }
 
 /* contenuto principale */
@@ -134,7 +139,7 @@ padding: 10px;
 .main-content {
     /*DEBUG*/
     background-color: rgb(33, 128, 6);
-    padding: 30px 400px;
+    padding: 40px 350px;
 }
 
 /* sezione tariffe */
@@ -146,17 +151,18 @@ padding: 10px;
 }
 
 .check-box {
-    /*DEBUG*/
+    /*DEBUG
     background-color: burlywood;
-    height: 20%;
+    height: 20%;*/
+    margin-bottom: 30px;
 }
 
 .fares-container {
-    /*DEBUG*/
-    background-color: black;
+    /*DEBUG
+    background-color: black;*/
     height: 60%;
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 
 .fares-card {
@@ -172,6 +178,67 @@ padding: 10px;
     background-color: burlywood;
     height: 20%;
 }
+
+.checkbox-item {
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(152, 152, 152);
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.selected-checkbox {
+    border: 4px solid #0062FE;
+}
+
+.check-box span {
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.fares-type {
+    text-align: center;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.fares-container {
+    border: 1px solid grey;
+    font-size: 13px;
+}
+
+/* parte superiore card */
+
+.top-card {
+    padding: 20px;
+}
+
+.top-card h3 {
+    margin-bottom: 20px;
+}
+
+.top-card h4 {
+    margin-bottom: 20px;
+}
+
+.frequency-payment {
+    color: grey;
+    margin-top: 20px;
+}
+
+
+.top-card ul {
+        margin-top: 30px;
+}
+
+.top-card li {
+ margin-bottom: 15px; 
+ font-size: 13px;
+}
+
+
+
+
 
 /* sezione trova partner */
 
@@ -196,6 +263,8 @@ padding: 10px;
     background-color: rgb(223, 90, 189);
     width: 40%;
 }
+
+
 
 /* funzioni dropbox */
 
