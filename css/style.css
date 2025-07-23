@@ -59,7 +59,6 @@
     /*DEBUG*/
     background-color: blue;
     width: 30%;
-    
 }
 
 #jumbotron-item-right {
@@ -68,12 +67,14 @@
     width: 70%;
 }
 
+
+
 /* contenuto principale */
 
-.main-container {
+.contenuto-principale {
     /*DEBUG*/
     background-color: rgb(33, 128, 6);
-    padding: 0 350px;
+    padding: 30px 400px;
 }
 
 /* sezione tariffe */
@@ -110,4 +111,28 @@
      /*DEBUG*/
     background-color: burlywood;
     height: 20%;
+}
+
+/* sezione trova partner */
+
+.partner-container {
+    /*DEBUG*/
+    background-color: aqua;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+} 
+
+#partner-left {
+    /*DEBUG*/
+    background-color: blue;
+    width: 60%;
+}
+
+#partner-right {
+    /*DEBUG*/
+    background-color: rgb(223, 90, 189);
+    width: 40%;
 }
