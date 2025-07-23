@@ -6,3 +6,24 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
+
+/* menu di navigazione intestazione */
+
+.header-bar {
+    /*DEBUG*/
+    background-color: blueviolet;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.header-items {
+    /*DEBUG*/
+    border:1px dashed black;
+    width: 50%;
+    height: 100%;
+}
