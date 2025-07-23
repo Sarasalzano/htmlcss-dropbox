@@ -71,7 +71,7 @@
 
 /* contenuto principale */
 
-.contenuto-principale {
+.main-content {
     /*DEBUG*/
     background-color: rgb(33, 128, 6);
     padding: 30px 400px;
@@ -136,3 +136,43 @@
     background-color: rgb(223, 90, 189);
     width: 40%;
 }
+
+/* funzioni dropbox */
+
+.operations {
+    /*DEBUG*/
+    background-color: yellow;
+    height: 700px;
+}
+
+.operations-title {
+    /*DEBUG*/
+    background-color: blueviolet;
+    height: 10%;
+    width: 100%;
+}
+
+.operations-container {
+    /*DEBUG*/
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    gap: 10px;
+}
+
+.operation-card {
+    /*DEBUG*/
+    border: 1px dashed black;
+    background-color: antiquewhite;
+    width: calc((100% /3) - (20px / 3));
+}
+
+/* info clienti */
+
+.info-clienti {
+    /*DEBUG*/
+    background-color: violet;
+    height: 300px;
+}
+
