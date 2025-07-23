@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Delius&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Dropbox</title>
 </head>
@@ -16,7 +17,6 @@
     <!--menu di navigazione-->
     <section>
         <div class="header-bar">
-
             <div class="header-items">
                 <img id="logo" src="./img/logo-small.png" alt="logo dropbox">
             </div>
@@ -41,20 +41,30 @@
                 </nav>
             </div>
             <div class="header-items">
-                <button id="login">Login</button>
+                <button id="login" class="btn">Login</button>
             </div>
         </div>
-            
-
-        </div>
     </section>
+
     <!--jumbotron-->
     <section>
         <div class="jumbotron">
-            <div id="jumbotron-titolo"></div>
+            <div id="jumbotron-titolo">
+                <h1><strong>Tutto ciò che ti serve per il lavoro, in un unico posto</strong></h1>
+            </div>
+
             <div class="jumbotron-container">
-                <div id="jumbotron-item-left"></div>
-                <div id="jumbotron-item-right"></div>
+                <div id="jumbotron-item-left">
+                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è pi&ugrave; di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente. </p>
+
+                    <button class="btn" id="jumbotron-btn">Inizia la tua prova gratuita</button> <br>
+                    <span>Annulla in qualsiasi momento</span> <br>
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+
+                </div>
+                <div id="jumbotron-item-right">
+                    <img src="./img/jumbo.png" alt="anteprima dropbox">
+                </div>
             </div>
         </div>
     </section>

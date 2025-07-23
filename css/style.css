@@ -15,6 +15,9 @@ li {
     font-size: 14px;
 }
 
+h1 {
+    font-size: 60px;
+}
 
 
 
@@ -46,57 +49,85 @@ li {
     padding: 5px;
 }
 
-#login {
+.btn {
     background-color: #0061FE;
     border:1px solid #0061FE;
     color: white;
     padding: 5px 10px;
 }
 
-ù
-
 /* jumbotron*/
 
-.jumbotron {
-    /*DEBUG*/
-    height: 750px;
+div.jumbotron {
+    /*DEBUG
+    height: 600px;*/
+    width: 100%;
     background-color: #B4D0E6;
-    padding: 140px 40px 80px;
+    margin-top: 50px;
+    padding: 30px 280px;
 }
 
 .jumbotron-container {
-    /*DEBUG*/
+    /*DEBUG
     background-color: white;
-    height: 70%;
+    height: 60%; */
     margin: 0 auto;
     display: flex;
-    width: 70%;   
+    font-size: 13px;
+      
 }
 
 #jumbotron-titolo {
-    /*DEBUG*/
+    /*DEBUG
     background-color: burlywood;
-    height: 30%;
-    width: 70%;
+    height: 30%;*/
     margin: 0 auto;
-
+    padding-top: 50px;
 }
 
 #jumbotron-item-left {
-    /*DEBUG*/
-    background-color: blue;
+    /*DEBUG
+    background-color: blue;*/
     width: 30%;
+    padding-top: 40px;
+}
+
+#jumbotron-item-left p {
+    margin-bottom: 25px;
+}
+
+#jumbotron-item-left button {
+    margin-bottom: 20px;
+}
+
+#jumbotron-item-left span {
+    margin-bottom: 20px;
+}
+
+.fa-arrow-down {
+    font-size: 40px;
+    color: black;
+    margin-top: 50px;
 }
 
 #jumbotron-item-right {
-    /*DEBUG*/
-    background-color: blueviolet;
+    /*DEBUG
+    background-color: blueviolet;*/
     width: 70%;
+    padding-top: 40px;
+}
+
+#jumbotron-item-right img {
+    max-width: 100%;
 }
 
 .header-items ul {
     display: flex;
 } 
+
+#jumbotron-btn {
+padding: 10px;
+}
 
 /* contenuto principale */
 
