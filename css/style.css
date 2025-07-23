@@ -67,3 +67,47 @@
     background-color: blueviolet;
     width: 70%;
 }
+
+/* contenuto principale */
+
+.main-container {
+    /*DEBUG*/
+    background-color: rgb(33, 128, 6);
+    padding: 0 350px;
+}
+
+/* sezione tariffe */
+
+.fares {
+    /*DEBUG*/
+    background-color: white;
+    height: 700px;
+}
+
+.check-box {
+    /*DEBUG*/
+    background-color: burlywood;
+    height: 20%;
+}
+
+.fares-container {
+    /*DEBUG*/
+    background-color: black;
+    height: 60%;
+    display: flex;
+    gap: 40px;
+}
+
+.fares-card {
+    /*DEBUG*/
+    background-color: cadetblue;
+    border: 1px dashed black;
+    height: 100%;
+    width: 100%;
+}
+
+.contacts {
+     /*DEBUG*/
+    background-color: burlywood;
+    height: 20%;
+}
