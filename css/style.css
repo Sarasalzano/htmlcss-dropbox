@@ -176,3 +176,41 @@
     height: 300px;
 }
 
+section {
+    border: 1px dashed black;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    height: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer-container {
+    /*DEBUG*/
+    background-color: antiquewhite;
+    height: 200px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.link-items {
+    /*DEBUG*/
+    border: 1px dashed black;
+    width: 20%;
+}
+
+.secondary-footer {
+    /*DEBUG*/
+    background-color: aqua;
+    height: 50px;
+    margin: 0 auto;
+    width: 70%;
+}
