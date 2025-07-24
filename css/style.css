@@ -174,8 +174,8 @@ div.jumbotron {
 /* sezione tariffe */
 .fares {
     /*DEBUG
-    height: 700px;*/
-    background-color: white;
+    height: 700px;
+    background-color: white;*/
 }
 
 .fares-container {
@@ -187,10 +187,10 @@ div.jumbotron {
 }
 
 .fares-card {
-    /*DEBUG*/
+    /*DEBUG
     background-color: cadetblue;
-    height: 100%;
-    border: 1px dashed black;
+    height: 100%; */
+    border: 1px solid grey;
     width: 300px
 }
 
@@ -198,10 +198,6 @@ div.jumbotron {
     text-align: center;
     border-bottom: 1px solid grey;
     padding: 5px;
-}
-
-.fares-container {
-    border: 1px solid grey;
 }
 
 .check-box {
