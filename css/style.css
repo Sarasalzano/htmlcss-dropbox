@@ -43,17 +43,29 @@ section {
 
 .fa-check {
     color: blue;
+    padding-right: 10px;
 }
 
 .fa-earth-americas {
     margin-right: 10px;
 }
 
+.fa-user {
+    padding-right: 20px;
+}
+
+.fa-folder {
+    padding-right: 20px
+}
+
+.fa-share-nodes {
+    padding-right: 20px
+}
 
 /* menu di navigazione intestazione */
 .header-bar {
     background-color: white;
-    height: 60px;
+    height: 70px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -79,7 +91,7 @@ section {
 }
 
 .link-division {
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 .link-division a {
@@ -120,6 +132,7 @@ div.jumbotron {
     background-color: #B4D0E6;
     margin-top: 50px;
     padding: 30px 280px;
+    padding-bottom: 0;
 }
 
 .jumbotron-container {
@@ -142,7 +155,7 @@ div.jumbotron {
     /*DEBUG
     background-color: blue;*/
     width: 30%;
-    padding-top: 120px;
+    padding-top: 80px;
 
 }
 
@@ -163,7 +176,7 @@ div.jumbotron {
     background-color: blueviolet;*/
     width: 70%;
     padding-top: 40px;
-    transform: translate(0px, 20%);
+    transform: translate(0px, 10%);
 }
 
 #jumbotron-item-right img {
@@ -207,7 +220,7 @@ div.jumbotron {
     background-color: cadetblue;
     height: 100%; */
     border: 1px solid grey;
-    width: 300px
+    width: 300px;
 }
 
 .fares-topbox {
@@ -289,6 +302,7 @@ div.jumbotron {
 
 .division-card li {
     margin-bottom: 15px; 
+    display: flex;
 }
 
  
