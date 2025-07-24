@@ -49,9 +49,6 @@ section {
     margin-right: 10px;
 }
 
-.fa-share-nodes::before {
-    margin-right: 20px;
-}
 
 /* menu di navigazione intestazione */
 .header-bar {
@@ -78,7 +75,25 @@ section {
     margin-right: 15px;
     padding: 5px;
     cursor: pointer;
+    text-decoration: underline;
 }
+
+.link-division {
+    margin-right: 15px;
+}
+
+.link-division a {
+    color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+} 
+
+
+.link-division :hover {
+    border-bottom: 1px solid black;   
+}
+
 
 #empty-col {
     flex-grow: 1;
