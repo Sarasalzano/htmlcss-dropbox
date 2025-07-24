@@ -37,6 +37,15 @@ section {
     margin-top: 50px;
 }
 
+.selected-checkbox {
+    border: 4px solid #0062FE;
+}
+
+.check-box span {
+    margin-right: 20px;
+}
+
+
 .fa-check {
     color: blue;
 }
@@ -155,6 +164,7 @@ div.jumbotron {
     padding: 40px 350px;
 }
 
+
 /* sezione tariffe */
 .fares {
     /*DEBUG
@@ -173,14 +183,14 @@ div.jumbotron {
 .fares-card {
     /*DEBUG*/
     background-color: cadetblue;
-    height: 100%;*/
+    height: 100%;
     border: 1px dashed black;
     width: 300px
 }
 
-.fares-type {
+.fares-topbox {
     text-align: center;
-    border: 1px solid grey;
+    border-bottom: 1px solid grey;
     padding: 5px;
 }
 
@@ -203,19 +213,34 @@ div.jumbotron {
     display: inline-block;
 }
 
-.selected-checkbox {
-    border: 4px solid #0062FE;
-}
+/* sezione contatti */
 
-.check-box span {
-    margin-right: 20px;
-}
-
-.contacts {
-     /*DEBUG*/
-    background-color: burlywood;
+#contacts {
+     /*DEBUG
+    background-color: burlywood;*/
     height: 20%;
+    margin-top: 30px;
+    border: 1px solid grey;
 }
+
+.contact-flex {
+    display: flex;
+    padding: 20px;
+}
+
+.contact-left-column {
+    width: 70%;
+    text-align: left;
+}
+
+.contact-left-column p {
+    margin-top: 40px;
+}
+
+.contact-left-column h3 {
+    margin-bottom: 10px;
+}
+
 
 
 /* sezione card */
@@ -248,8 +273,6 @@ div.jumbotron {
     color: grey;
     margin-top: 20px;
 }
-
-
 
 hr {
     width: 40px;
