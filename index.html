@@ -18,12 +18,9 @@
     <section>
         <div class="header-bar">
 
-
-            
+            <!--sezione navigazione sinistra-->
             <div class="header-items">
                 <img id="logo" src="./img/logo-small.png" alt="logo dropbox">
-            </div>
-            <div class="header-items">
                 <nav>
                     <ul>
                         <li><a href="#"></a>Perché Dropbox</li>
@@ -32,6 +29,11 @@
                     </ul>
                 </nav>
             </div>
+
+            <!--colonna spaziatrice menu di navigazione-->
+            <div id="empty-col" class="header-items"></div>
+
+            <!--sezione navigazione destra-->
             <div class="header-items">
                 <nav>
                     <ul>
@@ -40,8 +42,6 @@
                         <li><a href="#"></a>Inizia</li>
                     </ul>
                 </nav>
-            </div>
-            <div class="header-items">
                 <button id="login" class="btn">Login</button>
             </div>
         </div>
@@ -54,15 +54,12 @@
                 <h1><strong>Tutto ciò che ti serve per il lavoro, in un unico posto</strong></h1>
             </div>
             <div class="jumbotron-container">
-
                 <div id="jumbotron-item-left">
                     <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è pi&ugrave; di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente. </p>
-
                     <button class="btn" id="jumbotron-btn">Inizia la tua prova gratuita</button> <br>
                     <span>Annulla in qualsiasi momento</span> <br>
                     <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
                 </div>
-
                 <div id="jumbotron-item-right">
                     <img src="./img/jumbo.png" alt="anteprima dropbox">
                 </div>
@@ -72,10 +69,10 @@
 </header>
 
 <!--contenuto principale-->
-
 <main>
     <!--piano business-->
         <section class="main-content">
+            <!--sezione check box-->
             <div class="fares">
                 <div class="check-box">
                     <h2>Trova il piano business che fa per te</h2>
@@ -86,13 +83,14 @@
                         </div>
                         <span>fatturazione mensile</span>
                 </div>
-
+                <!--colonne piani tariffari-->
                 <div class="fares-container">
+                    <!--colonna-->
                     <div class="fares-card">
                             <div class="fares-type">
                                 <i class="fa-regular fa-user"></i>Singolo
                             </div>
-                        <div class="top-card">
+                        <div class="division-card">
                             <h3>Professional</h3>
                             <h4 class="price"> &euro; 12.00 </h4> 
                             <span class="frequency-payment">/mese</span>
@@ -105,7 +103,7 @@
                             oppure 
                             <a href="#">acquista ora</a>
                         </div>
-                        <div class="top-card">
+                        <div class="division-card">
                             <h4>Punti salienti del piano</h4>
                             <ul>
                                 <li><i class="fa-solid fa-check"></i>Invia file fino a 100 GB con Dropbox Transfert </li>
@@ -113,13 +111,12 @@
                             </ul>
                         </div>
                     </div>
-
-
+                    <!--colonna-->
                     <div class="fares-card">
                         <div class="fares-type">
                             <i class="fa-solid fa-people-group"></i>Team
                         </div>
-                            <div class="top-card">
+                            <div class="division-card">
                                 <h3>Advanced</h3>
                                 <h4 class="price"> &euro; 18.00 </h4> 
                                 <span class="frequency-payment">/utente/mese</span>
@@ -128,31 +125,26 @@
                                     <li><i class="fa-solid fa-folder"></i>Tutto lo spazio di cui ha bisogno il tu team</li>
                                     <li><i class="fa-solid fa-share-nodes"></i>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>  
                                 </ul>
-                            <button class="btn">Prova gratis per 30 giorni</button>
-                            oppure 
-                            <a href="#">acquista ora</a>
-                        </div>
-                        <div class="top-card">
-                            <h4>Punti salienti del piano</h4>
-                            <ul>
-                                <li><i class="fa-solid fa-check"></i>Nessun limite di spazio per i file </li>
-                                <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili </li> 
-                                <li><i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle iscrizioni singole </li>
-                                <li><i class="fa-solid fa-check"></i>Gestione dei permessi in base ai ruoli </li> 
-
-                            </ul>
-
+                                <button class="btn">Prova gratis per 30 giorni</button>
+                                oppure 
+                                <a href="#">acquista ora</a>
+                            </div>
+                            <div class="division-card">
+                                <h4>Punti salienti del piano</h4>
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i>Nessun limite di spazio per i file </li>
+                                    <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili </li> 
+                                    <li><i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle iscrizioni singole </li>
+                                    <li><i class="fa-solid fa-check"></i>Gestione dei permessi in base ai ruoli </li> 
+                                </ul>
                             </div>
                         </div>
-
-
-                    
-                    <div class="fares-card">
-                        <div class="fares-type">
-                            <i class="fa-solid fa-building"></i>Azienda
-                        </div>
-                    
-                        <div class="top-card">
+                        <!--colonna-->
+                        <div class="fares-card">
+                            <div class="fares-type">
+                                <i class="fa-solid fa-building"></i>Azienda
+                            </div>
+                        <div class="division-card">
                             <h3>Enterprise</h3>
                             <h4 class="price"> Contattaci </h4> 
                             <span class="frequency-payment">-</span>
@@ -161,23 +153,19 @@
                                 <li><i class="fa-solid fa-folder"></i>Soluzioni personalizzabili per la tua azienda</li>
                                 <li><i class="fa-solid fa-share-nodes"></i>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga</li>
                             </ul>
-                             <button class="btn">Prova gratis per 30 giorni</button>
+                            <button class="btn">Prova gratis per 30 giorni</button>
                             oppure 
                             <a href="#">acquista ora</a>
                         </div>
-                        <div class="top-card">
+                        <div class="division-card">
                             <h4>Punti salienti del piano</h4>
                             <ul>
                                 <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili </li>
                                 <li><i class="fa-solid fa-check"></i>Servizio assistenza 24/h </li> 
                                 <li><i class="fa-solid fa-check"></i>Possibilità di personalizzazione totale </li>
-                
-
                             </ul>
-
                         </div>
                     </div>
-
                 </div>
                 <div class="contacts"></div>
                 </div>

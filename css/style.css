@@ -1,5 +1,4 @@
 /* reset css */
-
 * {
     margin: 0;
     padding: 0;
@@ -8,11 +7,13 @@
 }
 
 /* regole generiche */
+body {
+    font-size: 13px;
+}
 
 li {
     text-decoration: none;
     list-style-type: none;
-    font-size: 14px;
 }
 
 h1 {
@@ -24,40 +25,56 @@ h2 {
     margin-bottom: 30px;
 }
 
-p {
-    font-size: 13px;
+section {
+    /*DEBUG
+    border: 1px dashed black;*/ 
 }
 
-a {
-    font-size:13px ;
+/* icone */
+.fa-arrow-down {
+    font-size: 40px;
+    color: black;
+    margin-top: 50px;
 }
+
+.fa-check {
+    color: blue;
+}
+
 
 /* menu di navigazione intestazione */
-
 .header-bar {
-    /*DEBUG*/
-    background-color: blueviolet;
+    background-color: white;
     height: 60px;
     width: 100%;
     position: fixed;
+    top: 0;
     display: flex;
     align-items: center;
     padding: 15px 10px;
 }
 
 .header-items {
-    /*DEBUG*/
-    border:1px dashed black;
+    /*DEBUG
+    border:1px dashed black;*/
     height: 100%;
-}
-
-#logo {
-    padding-right: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .header-items li {
     margin-right: 15px;
     padding: 5px;
+    cursor: pointer;
+}
+
+#empty-col {
+    flex-grow: 1;
+}
+
+#logo {
+    padding-right: 20px;
+    height: 20px;
 }
 
 .btn {
@@ -67,10 +84,7 @@ a {
     padding: 5px 10px;
 }
 
-
-
 /* jumbotron*/
-
 div.jumbotron {
     /*DEBUG
     height: 600px;*/
@@ -86,8 +100,6 @@ div.jumbotron {
     height: 60%; */
     margin: 0 auto;
     display: flex;
-    font-size: 13px;
-      
 }
 
 #jumbotron-titolo {
@@ -117,12 +129,6 @@ div.jumbotron {
     margin-bottom: 20px;
 }
 
-.fa-arrow-down {
-    font-size: 40px;
-    color: black;
-    margin-top: 50px;
-}
-
 #jumbotron-item-right {
     /*DEBUG
     background-color: blueviolet;*/
@@ -142,10 +148,7 @@ div.jumbotron {
     padding: 10px;
 }
 
-
-
 /* contenuto principale */
-
 .main-content {
     /*DEBUG
     background-color: rgb(33, 128, 6);*/
@@ -153,18 +156,10 @@ div.jumbotron {
 }
 
 /* sezione tariffe */
-
 .fares {
     /*DEBUG
     height: 700px;*/
     background-color: white;
-}
-
-.check-box {
-    /*DEBUG
-    background-color: burlywood;
-    height: 20%;*/
-    margin-bottom: 30px;
 }
 
 .fares-container {
@@ -183,10 +178,21 @@ div.jumbotron {
     width: 300px
 }
 
-.contacts {
-     /*DEBUG*/
+.fares-type {
+    text-align: center;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.fares-container {
+    border: 1px solid grey;
+}
+
+.check-box {
+    /*DEBUG
     background-color: burlywood;
-    height: 20%;
+    height: 20%;*/
+    margin-bottom: 30px;
 }
 
 .checkbox-item {
@@ -203,32 +209,38 @@ div.jumbotron {
 
 .check-box span {
     margin-right: 20px;
-    font-size: 13px;
 }
 
-.fares-type {
-    text-align: center;
-    border: 1px solid grey;
-    padding: 5px;
+.contacts {
+     /*DEBUG*/
+    background-color: burlywood;
+    height: 20%;
 }
 
-.fares-container {
-    border: 1px solid grey;
-    font-size: 13px;
-}
 
-/* parte superiore card */
+/* sezione card */
 
-.top-card {
+.division-card {
     padding: 20px;
-
 }
 
-.top-card h3 {
+.division-card h3 {
     margin-bottom: 20px;
 }
 
-.top-card h4 {
+.division-card h4 {
+    margin-bottom: 20px;
+}
+
+.division-card ul {
+    margin-top: 30px;
+}
+
+.division-card li {
+    margin-bottom: 15px; 
+}
+
+.division-card .btn {
     margin-bottom: 20px;
 }
 
@@ -238,38 +250,12 @@ div.jumbotron {
 }
 
 
-.top-card ul {
-    margin-top: 30px;
-}
-
-.top-card li {
- margin-bottom: 15px; 
- font-size: 13px;
-}
-
-.small-text {
-font-size: 13px;
-
-}
-
-.top-card .btn {
-margin-bottom: 20px;
-}
 
 hr {
     width: 40px;
     border-color: 1px solid grey;
     margin-top: 20px;
 }
-
-/* sezione inferiore card */
-
-.fa-check {
-    color: blue;
-}
-
-
-
 
 /* sezione trova partner */
 
@@ -350,10 +336,6 @@ hr {
     /*DEBUG
     background-color: violet;
     height: 300px;*/
-}
-
-section {
-    border: 1px dashed black; 
 }
 
 .info-clienti h2 {
