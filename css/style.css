@@ -11,8 +11,11 @@ body {
     font-size: 13px;
 }
 
-li {
+a {
     text-decoration: none;
+}
+
+li {
     list-style-type: none;
 }
 
@@ -50,6 +53,9 @@ section {
     color: blue;
 }
 
+.fa-earth-americas {
+    margin-right: 10px;
+}
 
 /* menu di navigazione intestazione */
 .header-bar {
@@ -325,32 +331,42 @@ hr {
 /* funzioni dropbox */
 
 .operations {
-    /*DEBUG*/
-    background-color: yellow;
+    /*DEBUG
     height: 700px;
+    background-color: yellow;*/
 }
 
 .operations-title {
-    /*DEBUG*/
+    /*DEBUG
     background-color: blueviolet;
-    height: 10%;
+    height: 10%;*/
     width: 100%;
 }
 
 .operations-container {
-    /*DEBUG*/
-    background-color: aqua;
+    /*DEBUG
+    background-color: aqua;*/
     display: flex;
     flex-wrap: wrap;
     height: 90%;
-    gap: 10px;
+    gap: 30px;
 }
 
 .operation-card {
-    /*DEBUG*/
+    /*DEBUG
     border: 1px dashed black;
-    background-color: antiquewhite;
-    width: calc((100% /3) - (20px / 3));
+    background-color: antiquewhite;*/
+    width: calc((100% /3) - (60px / 3));
+}
+
+.operation-card h3 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.card-item {
+    max-width: 100%;
 }
 
 /* info clienti */
@@ -370,15 +386,14 @@ hr {
 footer {
     background-color: black;
     color: white;
-    height: 400px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 30px;
+    padding-bottom: 0;
 }
 
 .footer-container {
-    /*DEBUG*/
+    /*DEBUG
     background-color: antiquewhite;
-    height: 200px;
+    height: 200px;*/
     width: 70%;
     margin: 0 auto;
     margin-top: 50px;
@@ -387,15 +402,44 @@ footer {
 }
 
 .link-items {
-    /*DEBUG*/
-    border: 1px dashed black;
+    /*DEBUG
+    border: 1px dashed black;*/
     width: 20%;
 }
 
+.link-items li {
+    margin-bottom: 10px;
+}
+
+.link-items a {
+    color: white;
+}
+
+.link-items h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-container hr {
+    border: 1px solid white;
+    width: 100px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+/* footer secondario */
+
 .secondary-footer {
-    /*DEBUG*/
-    background-color: aqua;
+    /*DEBUG
+    background-color: aqua;*/
     height: 50px;
     margin: 0 auto;
     width: 70%;
+
+}
+
+select {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
 }
